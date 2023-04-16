@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Midias Dinâmicas</title>
+</head>
+<body>
+    <h1>Trabalhando com Imagens Dinâmicas</h1>
+    <p>Tente abrir esse site em vários dispositivos diferentes ou simplesmente aumente ou diminua o tamanho do seu navegador.</p>
+    <!--A TAG <PICTURE> PERMITE O CARREGAMENTO DE VÁRIAS IMAGENS DEFINIDAS PELO TAMANHO DA TELA,
+        PERMITINDO A ABERTURA EM DIVERSOS DISPOSITIVOS E TAMANHOS DE JANELA-->
+    <picture>
+        <source media="(max-width: 750px)" srcset="images/foto-p.png" type="image/png">
+        <source media="(max-width: 1050px)" srcset="images/foto-m.png" type="image/png">
+        <img src="images/foto-g.png" alt="Imagem Flexível">
+        <!--AS IMAGENS DEVEM SER COLOCADAS NA ORDEM(DA MAIOR PARA A MENOR//a depender do modo de trabalho**max-widht ou min-widht)-->
+    </picture>
+    
+    <h1>Reproduzindo áudios</h1>
+    <p>Vamos aprender a reproduzir áudios em HTML5.</p>
+    <!--MANEIRA 1-->
+    <!-- <audio src="midias/Boom Bap Flick - Quincas Moreira.mp3" controls autoplay></audio> -->
+    <!--MP3/MPEG WAV OGG-->
+    <!--MANEIRA 2-->
+    <audio preload="metadata" autoplay controls loop> <!--LOOP(DEIXA EM LOOP/AUTOPLAY TOCA A MUSICA AUTOMATICAMENTE/CONTROLS MOSTRA OS CONTROLES DO AUDIO)-->
+        <source src="midias/Boom Bap Flick - Quincas Moreira.mp3" type="audio.mpeg">
+        <source src="midias/Boom Bap Flick - Quincas Moreira.ogg" type="audio.ogg">
+        <source src="midias/Boom Bap Flick - Quincas Moreira.wav" type="audio.wav">
+        <p>Infelizmente seu navegador não suporta arquivos de áudio.</p>
+        <a href="midias/Boom Bap Flick - Quincas Moreira.mp3">Clique aqui para fazer download do arquivo MP3.</a>
+    </audio>
+</body>
+</html>
+

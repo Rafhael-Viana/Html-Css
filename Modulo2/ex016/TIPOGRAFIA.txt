@@ -1,0 +1,56 @@
+TIPOGRAFIA
+É o estudo da escrita, de como escrever as coisas.
+
+Tem à ver com:
+    Legibilidade
+    Transmissão de Emoções e Sentimentos
+    
+Curiosidade:
+    *O design preocupa-se em juntar 3 coisas: Boas imagens, boas cores e boas letras*
+    *A letra x é a primeira e mais importantes na construção de uma fonte*
+
+Altura das Fontes
+    Altura-x: altura de todas as minúsculas
+    Altura das Maiúsculas: --//--
+    Altura Ascendente: altura de vazamento das letras minúsculas
+    Altura descendente: vazamento pra baixo.
+    Corpo: soma de todas as alturas, a altura total.
+    
+Anatômicos Geométricos das Letras
+
+    Serifas - pequenos traços presentes em algumas fontes que dão a ideia de linearidade, agindo como um guia de leitura "passivo".
+    
+    Hastes - linhas que se juntam como em "A"
+
+    Filetes - haste horizontal que conecta duas hastes. 
+
+    Arcos - parte arredondada.
+
+    Esporão - pequena protuberância na base e serve pra criar a ideia de solidez da letra (pra ela não cair).
+
+    Terminal - brotamento de uma haste que não prende-se em outra. Ex: "r"
+
+Anatômicos Corporais das Letras
+    Braço - haste que vai pra cima.
+    Perna - haste que vai pra baixo.
+    Pé - Base da letra.
+    Espinha - curva em uma letra. Ex: "S"
+    Barriga - dois arcos que se encontram. Ex: "b"
+    Olho - parte interna da letra fechada por todos os lados.O vazio.
+    Orelha - tracinho em cima.
+    Cauda - parte descendente.
+
+Glifos
+    Glifo é cada letra de uma fonte.
+    Glifos com as mesmas características são uma família.
+    O conjunto de glifos parecidos, no mesmo estilo é uma fonte.
+    Cada fonte pode ou não pertencer a uma "Família Tipográfica.
+
+        Família Tipográfica - mesma fonte representada de maneira diferente (ex: light,normal,seminegrito,negrito,extranegrito)
+
+Categorias de Fontes
+    Serifadas
+    Sans-Serif (sem serifa)
+    Monoespaçadas
+    Handwriting
+    Display

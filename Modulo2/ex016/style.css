@@ -1,0 +1,16 @@
+@charset "UTF-8"; /* não tem sinal de igual */
+
+*{/*height: 100%;*/font-family: Arial, Helvetica, sans-serif;}
+body{background-image: linear-gradient(to left,#003380,#88A5D1);}
+main{
+    background-color: white; 
+    border-radius: 20px;
+    box-shadow: 5px 5px 15px rgba(0, 51, 128, 0.473);/*4 Parâm(Lado,Baixo,Espalhar,Cor de Transparência*/ 
+    width: 1000px; 
+    padding: 50px; 
+    margin: auto;
+    
+}/* padding(Borda do Texto) / margin(borda do conteúdo em relação a página) */
+h1{color:#94722F;text-align: center;text-shadow:1px 2px 2px rgba(147, 114, 47, 0.836);}
+h2{color:#FAD896;}
+p{text-align: justify;}
