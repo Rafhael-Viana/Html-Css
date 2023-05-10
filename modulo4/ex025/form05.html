@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formulário</title>
+    <style>
+        label{
+            margin: 10px;
+            text-align: left;
+        }
+        input{
+            
+        }
+        
+    </style>
+</head>
+<body>
+    <h1>Formulário</h1>
+    <form action="cadastro.php" method="get" autocomplete="on">
+        <fieldset>
+            <legend>Sexo</legend>
+            <label for="isxmas">Masculino</label>
+            <input type="radio" name="sexo" id="isxmas" value="M" checked>
+            <label for="isxfem">Feminino</label>
+            <input type="radio" name="sexo" id="isxfem" value="F">
+            <!-- TODOS OS "radio" TEM QUE TER O MESMO "name" -->
+        </fieldset>
+        <fieldset>
+            <legend>Esportes Favoritos</legend>
+            <p>
+                <input type="checkbox" name="futebol" id="ifutebol" checked>
+                <label for="ifutebol">Futebol</label>
+
+                <input type="checkbox" name="basq" id="ibasq">
+                <label for="ibasq">Basquete</label>
+                
+                <input type="checkbox" name="volei" id="ivolei">
+                <label for="ivolei">Vôlei</label>
+            </p>
+            <p>
+                <input type="checkbox" name="corr" id="icorr">
+                <label for="icorr">Corrida</label>
+
+                <input type="checkbox" name="nat" id="inat">
+                <label for="inat">Natação</label>
+
+                <input type="checkbox" name="tenis" id="itenis">
+                <label for="itenis">Tênis</label>
+            </p>
+            <p>
+                <input type="checkbox" name="judo" id="ijudo">
+                <label for="ijudo">Judô</label>
+
+                <input type="checkbox" name="body" id="ibody">
+                <label for="ibody">BodyBuilding</label>
+
+                <input type="checkbox" name="skate" id="iskate">
+                <label for="iskate">Skate</label>
+            </p>
+        </fieldset>
+
+        <p>
+            <input type="submit" value="Enviar">
+            <input type="reset" value="Limpar">
+        </p>
+    </form>
+</body>
+</html>
