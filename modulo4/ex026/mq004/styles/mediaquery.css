@@ -2,6 +2,8 @@
 
 /* Todas as demais mídias */
 
+/* TYPICAL DEVICE BREAKPOINTS */
+
 /* Tablet */
 @media screen and (min-width: 769px) and (max-width:992px) {
     body{
