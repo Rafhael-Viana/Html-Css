@@ -1,0 +1,13 @@
+@charset "UTF-8";
+
+/* Todas as demais mídias */
+
+@media screen {
+    html{
+        max-width: 500px;
+
+    }
+}
+@media print {
+    
+}
